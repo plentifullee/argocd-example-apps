@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: plentiful/ks-guestbook-demo:0.3
+      - image: plentiful/ks-guestbook-demo:0.4
         name: guestbook-ui
         ports:
         - containerPort: 80
